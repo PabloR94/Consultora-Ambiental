@@ -1,0 +1,129 @@
+//----------------------------------
+//        Variables de Colores
+//----------------------------------
+$primario: #09a66d;
+$secundario: #550000;
+$texto:#222324;
+
+//----------------------------------
+//       Funete Roboto
+//----------------------------------
+@font-face {
+    font-family: "Roboto-bold";
+    src: url("../fonts/RobotoSlab-Bold.ttf");
+}
+
+//----------------------------------
+//        Estilos de Diseño
+//----------------------------------
+html {
+    font-size: 13px;
+}
+
+body {
+    color: $texto!important;
+    font-family: "Overpass",sans-serif!important;
+}
+
+.navbar {
+    background-color: $primario!important;
+}
+
+
+h1 {
+    color: $secundario !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #290606;
+}
+
+.GEA {
+    font-family: "Roboto-bold"!important;
+    color: white;
+    text-shadow: 3px 3px 2px $secundario;
+}
+
+.titulo {
+    font-size: 100px;
+}
+
+.Socio {
+    border-color: $primario !important;
+}
+
+.card:hover {
+    box-shadow:0 0 10px #000000bb;
+}
+
+.icono {
+    color: $secundario;
+}
+
+.imgservicio {
+    color: $primario;
+}
+
+.btn-primary {
+    background-color:$primario!important;
+    border-color:darken( $color: $primario, $amount: 20)!important;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color:darken($color: $primario, $amount: 10)!important;
+}
+.btn-primary:active{
+    background-color: darken($color: $primario,$amount: 20)!important;
+    border-color: darken($color: $primario,$amount: 30)!important;
+}
+.btn-primary:focus{
+box-shadow: 0 0 0 0.2rem rgba($color: $primario,$alpha: 0.5)!important;
+}
+
+.redes{
+    right: 1%;
+    top: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100%;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+}
+
+footer {
+    background-color: $secundario;
+}
+
+
+//----------------------------------
+//        Media Queries
+//----------------------------------
+@media(min-width:768px){
+    html{
+        font-size: 16px;
+    }
+    .titulo {
+        font-size: 200px;
+    }
+    .redes{
+        top: 80%;
+    }
+}
+
+
+//----------------------------------
+//         Google Maps
+//----------------------------------
+.map-container-section {
+                                overflow: hidden;
+                                padding-bottom: 56.25%;
+                                position: relative;
+                                height: 0;
+                            }
+.map-container-section iframe {
+                                left: 0;
+                                top: 0;
+                                height: 100%;
+                                width: 100%;
+                                position: absolute;
+                            }

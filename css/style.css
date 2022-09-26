@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("../fonts/RobotoSlab-Bold.ttf");
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  color: #222324 !important;
+  font-family: "Overpass", sans-serif !important;
+}
+
+.Inicio{
+  background-image: url(../image/Portada.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: #09a66d !important;
+}
+
+h1 {
+  color: #550000 !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #290606;
+}
+
+.GEA {
+  font-family: "Roboto-bold" !important;
+  color: white;
+  text-shadow: 3px 3px 2px #550000;
+}
+
+.titulo {
+  font-size: 100px;
+}
+
+.Socio {
+  border-color: #09a66d !important;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #000000bb;
+          box-shadow: 0 0 10px #000000bb;
+}
+
+.icono {
+  color: #550000;
+}
+
+.imgservicio {
+  color: #09a66d;
+}
+
+.btn-primary {
+  background-color: #09a66d !important;
+  border-color: #04452d !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #06764d !important;
+}
+
+.btn-primary:active {
+  background-color: #04452d !important;
+  border-color: #01150e !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(9, 166, 109, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(9, 166, 109, 0.5) !important;
+}
+
+.Medios{
+  background-image: url(../image/Medios.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.redes {
+  right: 1%;
+  top: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  z-index: 100%;
+}
+
+.btn-fb {
+  text-align: center;
+  padding-top: 27%;
+  margin-bottom: 3px;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  background-color: #3b5998;
+  border-radius: 50%;
+}
+
+.btn-ig {
+  text-align: center;
+  padding-top: 27%;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  background: linear-gradient(22deg, #FFDC80, #FCAF45, #F56040, #E1306C, #C13584, #833AB4);
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #550000;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .titulo {
+    font-size: 200px;
+  }
+  .redes {
+    top: 80%;
+  }
+}
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
